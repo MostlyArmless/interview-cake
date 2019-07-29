@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node ./build/main.js",
+    "build": "tsc",
     "test": "mocha --watch"
   },
   "repository": {

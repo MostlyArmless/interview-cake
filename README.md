@@ -1,26 +1,9 @@
 # interview-cake
 
-This is an excellent package.
+Any problems from the [Interview Cake](https://www.interviewcake.com/) mailing list that I find interesting, I'll complete and save them here.
 
-## Installation
+There's no content in main.ts, to run the tests you need to:
 
-```bash
-npm install interview-cake
-```
-
-## Usage
-
-```javascript
-var excellentPkg = require('interview-cake');
-// Everything is now excellent.
-```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+1. `npm install` all the dependencies
+2. `npm run build` to transpile the TypeScript to JavaScript
+3. `npm run test` to run the Mocha tests (It'll run in `--watch` mode by default)
